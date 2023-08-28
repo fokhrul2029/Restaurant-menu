@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600&display=swap");
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Lora', serif; */
+/* Replesment CSS  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Lora", serif;
+  color: white;
+}
+img {
+  max-width: 100%;
+}
+/* Custom CSS  */
+.container {
+  max-width: 1000px;
+  /* border: 1px solid red; */
+  padding: 0 10px;
+  margin: auto;
+  text-align: center;
+}
+.meanPage {
+  max-width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url(../images/Brown\ Black\ Modern\ Restaurant\ Food\ Menu\ Portrait.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  overflow: auto;
+}
+.food-menu {
+  font-size: 77px;
+  font-family: "Lora", serif;
+  color: white;
+  position: sticky;
+  top: 0;
+  border: 1px solid green;
+}
+/* webkit-scrollbar  */
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+}
+/* Header CSS  */
+
+.restaurant-name {
+  font-size: 60px;
+  color: orange;
+  padding: 20px 0 0 0;
+  font-family: "Dancing Script", cursive;
+}
+
+/* Mean Menu  */
+.menu-style {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+  border-bottom: 2px solid gray;
+  padding-top: 81px;
+  padding-bottom: 30px;
+}
+.menu-description h1 {
+  text-align: left;
+  padding: 0 0 0 30px;
+}
+.item-description {
+  border-left: 3px solid orange;
+  margin-left: 30px;
+  text-align: left;
+  padding-left: 20px;
+}
+.item-description ul li {
+  list-style: none;
+  /* padding: 3px 0; */
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-description ul li span {
+  font-weight: 600;
+}
+.item-description ul li .price {
+  background-color: orange;
+  padding: 6px 0px;
+  font-weight: 900;
+  font-size: 18px;
+  width: 59px;
+  text-align: center;
+}
+.menu-image {
+  max-width: 100%;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.menu-image:hover {
+  transform: translateY(-10px);
+}
