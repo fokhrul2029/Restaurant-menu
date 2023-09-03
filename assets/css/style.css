@@ -49,14 +49,12 @@ img {
   border-radius: 0px;
 }
 /* Header CSS  */
-
 .restaurant-name {
   font-size: 60px;
   color: orange;
   padding: 20px 0 0 0;
   font-family: "Dancing Script", cursive;
 }
-
 /* Mean Menu  */
 .menu-style {
   display: grid;
@@ -79,7 +77,6 @@ img {
 }
 .item-description ul li {
   list-style: none;
-  /* padding: 3px 0; */
   font-size: 20px;
   display: flex;
   justify-content: space-between;
@@ -103,4 +100,12 @@ img {
 }
 .menu-image:hover {
   transform: translateY(-10px);
+}
+/* Footer CSS  */
+footer {
+  text-align: center;
+  padding: 15px 0;
+}
+footer span {
+  font-size: 22px;
 }
