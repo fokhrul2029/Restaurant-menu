@@ -39,7 +39,7 @@ img {
   color: white;
   position: sticky;
   top: 0;
-  border: 1px solid green;
+  border: 1px solid orange ;
 }
 /* webkit-scrollbar  */
 ::-webkit-scrollbar {
@@ -108,4 +108,26 @@ footer {
 }
 footer span {
   font-size: 22px;
+}
+footer a {
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+}
+footer a:hover {
+  color: white;
+}
+/* Media Query CSS  */
+@media screen and (max-width: 800px) {
+  .menu-style {
+    display: block;
+  }
+  .item-description ul li {
+    justify-content: space-around;
+  }
+  .menu-description h1{
+    border-bottom: 1px solid orange;
+    display: inline-block;
+    padding: 0 30px ;
+    margin-bottom: 15px ;
+  }
 }
